@@ -15,6 +15,29 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
+## Run
+
+Run on web
+
+````
+cd guishi
+flutter run -d chrome
+````
+
+Run on Android or ios
+
+````
+cd guishi
+flutter run
+````
+
+Run on Windows
+
+````
+cd guishi
+flutter run -d windows
+````
+
 
 
 ### Windows 
@@ -28,4 +51,12 @@ samples, guidance on mobile development, and a full API reference.
 | Android principal    | Android detalle       |
 | -------------------- | --------------------- |
 | ![](img/android.png) | ![](img/android_.png) |
+
+
+
+### Web
+
+| Web principal    | Wen detalle       |
+| ---------------- | ----------------- |
+| ![](img/web.png) | ![](img/web_.png) |
 
