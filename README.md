@@ -38,6 +38,30 @@ cd guishi
 flutter run -d windows
 ````
 
+## Build a release app
+
+Desktop
+
+````
+flutter build windows
+flutter build macos
+flutter build linux
+````
+
+Web
+
+````
+flutter build web
+````
+
+Android
+
+````
+flutter build apk --split-per-abi
+````
+
+*Removing the `--split-per-abi` flag results in a fat APK that contains your code compiled for all the target ABIs. Such APKs are larger in size than their split counterparts, causing the user to download native binaries that are not applicable to their device’s architecture.*
+
 
 
 ### Windows 
@@ -56,7 +80,7 @@ flutter run -d windows
 
 ### Web
 
-| Web principal    | Wen detalle       |
+| Web principal    | Web detalle       |
 | ---------------- | ----------------- |
 | ![](img/web.png) | ![](img/web_.png) |
 
